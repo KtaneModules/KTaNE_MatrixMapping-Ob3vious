@@ -260,7 +260,7 @@ public class MovelessMazeScript : MonoBehaviour
 
     private void Log(string message, params object[] args)
     {
-        string moduleName = "Moveless Maze";
+        string moduleName = "Matrix Mapping";
         Debug.LogFormat("[" + moduleName + " #" + _moduleID + "] " + message, args);
     }
 
